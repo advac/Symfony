@@ -1,0 +1,12 @@
+blog_list:
+    path:     /blog
+    controller: App\Controller\BlogController::list
+
+blog_show:
+    path:     /blog/show/{id}
+    controller: App\Controller\BlogController::show
+    
+blog_add:
+    path:     /blog/add
+    controller: App\Controller\BlogController::newPost
+
